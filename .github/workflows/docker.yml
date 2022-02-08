@@ -8,7 +8,7 @@ on:
       - '**'
   pull_request:
 env:
-  IMAGE_NAME: ${{ github.repository_name }}
+  IMAGE_NAME: wavpack
 
 jobs:
   build-image:
