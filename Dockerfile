@@ -1,4 +1,4 @@
-FROM ubuntu@sha256:669e010b58baf5beb2836b253c1fd5768333f0d1dbcb834f7c07a4dc93f474be
+FROM ubuntu@sha256:b6b83d3c331794420340093eb706a6f152d9c1fa51b262d9bf34594887c2c7ac
 
 RUN apt-get update && apt-get install -y curl xz-utils build-essential gcc
 RUN curl -L -o wavpack.tar.xz https://github.com/dbry/WavPack/releases/download/5.4.0/wavpack-5.4.0.tar.xz
